@@ -1,0 +1,63 @@
+.navbar {
+  text-align: right;
+  background: center / cover no-repeat url('./assets/img/op.png');
+  min-height: 40vh;
+  padding-top: 20px;
+  padding-right: 20px;
+
+  .link {
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: black;
+
+
+  }
+}
+
+.admin_section {
+  margin-inline: auto;
+  margin-top: 150px;
+  border-radius: 25px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  background-color: gray;
+  padding: 5%;
+
+  input, textarea {
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    padding-block: 10px;
+
+  }
+
+  button {
+    padding: 5px 25px;
+    border-radius: 10px;
+    margin-inline: auto;
+    border: none;
+  }
+}
+
+.blog_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 50px;
+  padding-inline: 40px;
+
+  div {
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    img {
+      max-height: 250px;
+    }
+
+  }
+}
